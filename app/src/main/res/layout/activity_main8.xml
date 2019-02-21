@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.zimaheka.merwan_walid.ihm_tp.Main8Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="Quelle est la catégorie que vous voulez ?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="22dp"
+            android:id="@+id/textView"
+            android:textSize="30sp"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:text="Novice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button11"
+            android:layout_marginTop="46dp"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:onClick="novice" />
+
+        <Button
+            android:text="habitué"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button12"
+            android:layout_below="@+id/button11"
+            android:layout_alignStart="@+id/button11"
+            android:layout_marginTop="58dp"
+            android:textSize="30sp"
+            android:onClick="habitué" />
+
+        <Button
+            android:text="Expert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button14"
+            android:layout_marginTop="58dp"
+            android:layout_below="@+id/button12"
+            android:layout_alignStart="@+id/button12"
+            android:textSize="30sp"
+            android:onClick="expert" />
+
+    </RelativeLayout>
+</RelativeLayout>
