@@ -1,2 +1,2 @@
 # HMI-Homework-App
-Human Machine Interface Android App Homework
+it is an android java application to make polls and display statistics
